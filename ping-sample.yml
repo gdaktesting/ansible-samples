@@ -6,3 +6,5 @@
   - debug:
       msg: "I ran!"
   - shell: "whoami"
+    register: who
+  - debug: var=who
