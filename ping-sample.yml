@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+  - ping:
+  - debug:
+      msg: "I ran!"
