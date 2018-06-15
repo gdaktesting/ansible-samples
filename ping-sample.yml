@@ -5,3 +5,4 @@
   - ping:
   - debug:
       msg: "I ran!"
+  - shell: "whoami"
